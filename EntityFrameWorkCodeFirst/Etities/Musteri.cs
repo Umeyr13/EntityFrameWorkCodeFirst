@@ -13,10 +13,14 @@ namespace EntityFrameWorkCodeFirst.Etities
     {
         [Key]
         public int MusteriID { get; set; }
-        public string MusteriÜnvanı { get; set; }
+        public string MusteriAdı { get; set; }
         public string MusteriAdres { get; set; }
         public string Telefon { get; set; }
-        public string yeni { get; set; }
-
+        public string Degistirdim { get; set; }
+        /*
+          AddColumn("dbo.Musteri", "MusteriÜnvanı", c => c.String());           
+            Sql("UPDATE Musteri SET MusteriÜnvanı = MusteriAdi");
+            DropColumn("dbo.Musteri", "MusteriAdi");
+         */
     }
 }

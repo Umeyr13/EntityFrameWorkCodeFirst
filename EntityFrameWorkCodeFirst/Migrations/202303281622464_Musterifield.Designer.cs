@@ -7,18 +7,18 @@ namespace EntityFrameWorkCodeFirst.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class musteritablosunaekleme : IMigrationMetadata
+    public sealed partial class Musterifield : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(musteritablosunaekleme));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Musterifield));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303281116394_musteritablosunaekleme"; }
+            get { return "202303281622464_Musterifield"; }
         }
         
         string IMigrationMetadata.Source
         {
-            get { return Resources.GetString("Source"); }
+            get { return null; }
         }
         
         string IMigrationMetadata.Target

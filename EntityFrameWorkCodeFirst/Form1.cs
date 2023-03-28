@@ -21,8 +21,8 @@ namespace EntityFrameWorkCodeFirst
         private void Form1_Load(object sender, EventArgs e)
         {
            Ornek_Db db = new Ornek_Db();
-           // db.Database.Create();
-            dataGridView1.DataSource = db.Database;// Bu şekilde de tablo otomatik oluşturulur
+            db.Database.Create();
+            //dataGridView1.DataSource = db.Database;// Bu şekilde de tablo otomatik oluşturulur
 
         }
     }

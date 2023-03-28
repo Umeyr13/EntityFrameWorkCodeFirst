@@ -18,7 +18,7 @@ namespace EntityFrameWorkCodeFirst.Etities
         public decimal Fiyat { get; set; }
         public byte[] Resim { get; set; }
         public Kategori Kategori { get; set; }
-        public List<Satis> Satislar { get; set; }
+       //public List<Satis> Satislar { get; set; }
 
 
     }

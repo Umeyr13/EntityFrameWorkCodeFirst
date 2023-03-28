@@ -7,13 +7,13 @@ namespace EntityFrameWorkCodeFirst.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class tabloismidegistiurun : IMigrationMetadata
+    public sealed partial class musterifieldgunceleme : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(tabloismidegistiurun));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(musterifieldgunceleme));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303281152117_tabloismidegistiurun"; }
+            get { return "202303281800579_musterifieldgunceleme"; }
         }
         
         string IMigrationMetadata.Source

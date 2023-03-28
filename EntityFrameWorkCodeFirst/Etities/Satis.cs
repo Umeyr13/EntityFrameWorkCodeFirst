@@ -9,7 +9,7 @@ namespace EntityFrameWorkCodeFirst.Etities
     public class Satis
     {
         public int SatisID { get; set; }
-        List<Urun> Urunler { get; set; }
+        //List<Urun> Urunler { get; set; }
 
     }
 }

@@ -69,21 +69,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202303281116394_musteritablosunaekleme.cs" />
-    <Compile Include="Migrations\202303281116394_musteritablosunaekleme.designer.cs">
-      <DependentUpon>202303281116394_musteritablosunaekleme.cs</DependentUpon>
+    <Compile Include="Migrations\202303281622464_Musterifield.cs" />
+    <Compile Include="Migrations\202303281622464_Musterifield.designer.cs">
+      <DependentUpon>202303281622464_Musterifield.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202303281124014_MusteriTableRenameMusteriUnvan.cs" />
-    <Compile Include="Migrations\202303281124014_MusteriTableRenameMusteriUnvan.designer.cs">
-      <DependentUpon>202303281124014_MusteriTableRenameMusteriUnvan.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202303281138430_AddTableSatis.cs" />
-    <Compile Include="Migrations\202303281138430_AddTableSatis.designer.cs">
-      <DependentUpon>202303281138430_AddTableSatis.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202303281152117_tabloismidegistiurun.cs" />
-    <Compile Include="Migrations\202303281152117_tabloismidegistiurun.designer.cs">
-      <DependentUpon>202303281152117_tabloismidegistiurun.cs</DependentUpon>
+    <Compile Include="Migrations\202303281800579_musterifieldgunceleme.cs" />
+    <Compile Include="Migrations\202303281800579_musterifieldgunceleme.designer.cs">
+      <DependentUpon>202303281800579_musterifieldgunceleme.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -91,17 +83,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202303281116394_musteritablosunaekleme.resx">
-      <DependentUpon>202303281116394_musteritablosunaekleme.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202303281622464_Musterifield.resx">
+      <DependentUpon>202303281622464_Musterifield.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202303281124014_MusteriTableRenameMusteriUnvan.resx">
-      <DependentUpon>202303281124014_MusteriTableRenameMusteriUnvan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202303281138430_AddTableSatis.resx">
-      <DependentUpon>202303281138430_AddTableSatis.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202303281152117_tabloismidegistiurun.resx">
-      <DependentUpon>202303281152117_tabloismidegistiurun.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202303281800579_musterifieldgunceleme.resx">
+      <DependentUpon>202303281800579_musterifieldgunceleme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
